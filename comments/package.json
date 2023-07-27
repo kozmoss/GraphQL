@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,9 @@
     "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.1",
     "apollo-server": "^3.12.0",
     "apollo-server-core": "^3.12.0",
-    "graphql": "^16.7.1"
+    "graphql": "^16.7.1",
+    "nanoid": "^4.0.2",
+    "nodemon": "^3.0.1",
+    "uuidv4": "^6.2.13"
   }
 }
